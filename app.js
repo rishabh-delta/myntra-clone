@@ -6,6 +6,7 @@ let kids=document.querySelector("#kids");
 let handl=document.querySelector("#handl");
 let beauty=document.querySelector("#beauty");
 let studio=document.querySelector("#studio");
+let input = document.querySelector("input");
 for(let i=0;i<home.length;i++){
     home[i].addEventListener("click",()=>{
         alert("you have clicked on home Image");
@@ -35,3 +36,4 @@ beauty.addEventListener("click",()=>{
 studio.addEventListener("click",()=>{
     alert("you are redirected to studio section");
 });
+console.dir(input);
